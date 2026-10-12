@@ -1,0 +1,54 @@
+# ── Dataset (large binary files — excluded from repo) ─────────
+BUSI_Dataset/
+BUSI_Dataset.zip
+Dataset_BUSI_with_GT/
+
+# ── Python cache ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ───────────────────────────────────────
+venv/
+env/
+.env
+.venv
+conda-env/
+
+# ── Jupyter checkpoints ────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Large model checkpoints (keep best only via git-lfs or manually) ──
+checkpoints/
+# To include best_model.pth, comment the line above and uncomment:
+# !checkpoints/busi_v1/best_model.pth
+
+# ── Large eval output visualisations (120 individual images) ──
+eval_output/busi_v1/visualizations/
+eval_output/unet_baseline/visualizations/
+
+# ── Keep summary plots and results.txt ─────────────────────────
+!eval_output/busi_v1/results.txt
+!eval_output/unet_baseline/results.txt
+!eval_output/unet_baseline/comparison.csv
+
+# ── OS files ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE files ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Log files (optionally keep) ────────────────────────────────
+# logs/
+# Uncomment above to also exclude training logs
+
+# ── Temporary / scratch ────────────────────────────────────────
+*.tmp
+*.bak

@@ -1,0 +1,17 @@
+2026-09-22 11:29:18 | Config: TrainConfig(data_dir='C:\\Prudhvi\\sem7\\MIP\\SuperLightNet\\BUSI_SuperLightNet\\BUSI_Dataset\\Dataset_BUSI_with_GT', train_file='train.txt', val_file='val.txt', test_file='test.txt', img_size=256, init_channels=1, n_channels=32, class_nums=2, depths='small', epochs=2, batch_size=4, num_workers=0, lr=0.001, weight_decay=0.01, optimizer='AdamW', criterion='BCEWithDiceLoss', amp=False, lr_scheduler='cosine', t_max=50, eta_min_ratio=0.1, checkpoint_dir='checkpoints', save_freq=10, experiment='busi_smoketest', log_dir='logs', seed=2024, gpus='0', local_rank=0)
+2026-09-22 11:29:20 | Train: 545 samples | Val: 115 samples
+2026-09-22 11:29:20 | Model parameters: 4.095 M
+2026-09-22 11:29:45 | [Train] Ep 001 | 010/136 | Loss=1.3407 | Dice=0.0390
+2026-09-22 11:30:08 | [Train] Ep 001 | 020/136 | Loss=1.1690 | Dice=0.1113
+2026-09-22 11:30:32 | [Train] Ep 001 | 030/136 | Loss=1.0420 | Dice=0.3215
+2026-09-22 11:30:56 | [Train] Ep 001 | 040/136 | Loss=0.9973 | Dice=0.1304
+2026-09-22 11:31:19 | [Train] Ep 001 | 050/136 | Loss=0.9860 | Dice=0.2004
+2026-09-22 11:31:55 | [Train] Ep 001 | 060/136 | Loss=0.8012 | Dice=0.4279
+2026-09-22 11:32:18 | [Train] Ep 001 | 070/136 | Loss=1.0209 | Dice=0.2759
+2026-09-22 11:32:47 | [Train] Ep 001 | 080/136 | Loss=1.0679 | Dice=0.0576
+2026-09-22 11:33:10 | [Train] Ep 001 | 090/136 | Loss=0.9650 | Dice=0.3287
+2026-09-22 11:33:33 | [Train] Ep 001 | 100/136 | Loss=0.7596 | Dice=0.3259
+2026-09-22 11:33:56 | [Train] Ep 001 | 110/136 | Loss=0.9780 | Dice=0.3575
+2026-09-22 11:34:36 | [Train] Ep 001 | 120/136 | Loss=0.8688 | Dice=0.3775
+2026-09-22 11:34:59 | [Train] Ep 001 | 130/136 | Loss=1.0529 | Dice=0.3124
+2026-09-22 11:35:12 | [Train] Ep 001 | 136/136 | Loss=0.8534 | Dice=0.3030
